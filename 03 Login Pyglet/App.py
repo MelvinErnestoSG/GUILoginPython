@@ -64,7 +64,7 @@ def authenticate_user():
     password = password_field.text
     # Here, you would perform authentication logic
     # For simplicity, we'll just check for a hardcoded username and password
-    if username == 'u' and password != '1234':
+    if username == 'a' and password != '1234':
         status_message.text = 'Login successful!'
     else:
         status_message.text = 'Invalid username or password'
