@@ -5,9 +5,9 @@ set_default_color_theme('blue')  # Themes: blue (default), dark-blue, green.
 
 # create CTk window.
 root = CTk()
-root.title('Login')
+root.title('Login Window')
 root.eval('tk::PlaceWindow . center')
-root.geometry("200x180+800+300")
+root.geometry("200x200+800+300")
 root.resizable(False, False)
 
 

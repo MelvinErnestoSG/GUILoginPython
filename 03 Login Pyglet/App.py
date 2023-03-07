@@ -43,7 +43,7 @@ def on_draw():
 @window.event
 def on_text(text):
     if username_field.text == '':
-        username_field.text += text
+        username_field.text = text
     else:
         password_field.text += text
 

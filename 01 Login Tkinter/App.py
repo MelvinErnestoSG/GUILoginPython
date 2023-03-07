@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 # Create a new tkinter window for the login screen.
 root = Tk()
-root.title('Window Login')
+root.title('Login Window')
 root.eval('tk::PlaceWindow . center')
 root.geometry("250x107+640+370")
 root.resizable(False, False)
